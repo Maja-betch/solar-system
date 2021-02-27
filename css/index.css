@@ -1,4 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root{
+    scroll-behavior: smooth;
+    --main-color: rgb(120, 130, 126,0.4);
+    --accent-color:rgb(5, 5, 5);
+    background-image: url(../img/foto.jpg);
+    background-size: contain;
+}
 body{
+    padding: 0;
+    margin: 0;
   margin: auto;
+  background-color:rgb(120, 130, 126,0.4);
+  max-width: 1080px;
+  font-family: 'Press Start 2P';
+}
+nav{
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+}
+ul{
+    list-style-type:none;
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
 }
 
+a{
+   text-decoration: none;
+    color: var(--accent-color);
+    max-height: 40px;
+}
+a:hover{
+    color:rgb(124, 60, 128);
+    border:rgb(190, 190, 144)2px solid;
+}
+.gif{
+    max-width: 20px;
+    max-height: 20px;
+}
+h2{
+    margin: 0;
+    color: rgb(196, 92, 27);
+    
+}
+.merc{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+.planet{
+    width: 100%;
+}
+p {
+    text-align: center;
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
